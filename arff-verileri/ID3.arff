@@ -1,0 +1,23 @@
+@relation ID3
+
+@ATTRIBUTE HAVA {Güneþli,Bulutlu,Yaðmurlu}
+@ATTRIBUTE ISI {Sýcak,ýlýk,Soðuk}
+@ATTRIBUTE NEM {Yüksek,Normal}
+@ATTRIBUTE RÜZGAR {Hafif,Kuvvetli}
+@ATTRIBUTE OYUN {Hayýr,Evet}
+
+@DATA
+Güneþli,Sýcak,Yüksek,Hafif,Hayýr
+Güneþli,Sýcak,Yüksek,Kuvvetli,Hayýr
+Bulutlu,Sýcak,Yüksek,Hafif,Evet
+Yaðmurlu,ýlýk,Yüksek,Hafif,Evet
+Yaðmurlu,Soðuk,Normal,Hafif,Evet
+Yaðmurlu,Soðuk,Normal,Kuvvetli,Hayýr
+Bulutlu,Soðuk,Normal,Kuvvetli,Evet
+Güneþli,ýlýk,Yüksek,Hafif,Hayýr
+Güneþli,Soðuk,Normal,Hafif,Evet
+Yaðmurlu,ýlýk,Normal,Hafif,Evet
+Bulutlu,ýlýk,Yüksek,Kuvvetli,Evet
+Bulutlu,Sýcak,Normal,Hafif,Evet
+Bulutlu,ýlýk,Yüksek,Kuvvetli,Hayýr
+Güneþli,ýlýk,Normal,Kuvvetli,Evet

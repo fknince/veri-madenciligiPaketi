@@ -1,0 +1,20 @@
+@relation twoing
+
+@ATTRIBUTE Müþteri numeric
+@ATTRIBUTE Gelir {Normal,Büyük,Küçük}
+@ATTRIBUTE Eðitim {Orta,Ýlk,Lise}
+@ATTRIBUTE Sektör {Biliþim,Ýnþaat}
+@ATTRIBUTE Memnun {Evet,Hayýr}
+
+@DATA
+1,Normal,Orta,Biliþim,Evet
+2,Büyük,Ýlk,Biliþim,Evet
+3,Küçük,Ýlk,Ýnþaat,Evet
+4,Büyük,Orta,Ýnþaat,Evet
+5,Küçük,Orta,Ýnþaat,Evet
+6,Büyük,Lise,Ýnþaat,Evet
+7,Küçük,Lise,Ýnþaat,Evet
+8,Büyük,Orta,Biliþim,Hayýr
+9,Küçük,Orta,Biliþim,Hayýr
+10,Büyük,Lise,Biliþim,Hayýr
+11,Küçük,Lise,Biliþim,Hayýr

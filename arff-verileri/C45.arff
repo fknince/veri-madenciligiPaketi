@@ -1,0 +1,22 @@
+@relation C45
+
+@ATTRIBUTE Nitelik1 {a,b,c}
+@ATTRIBUTE Nitelik2 numeric
+@ATTRIBUTE Nitelik3 {Dogru,Yanlis}
+@ATTRIBUTE Sýnýf {Sýnýf1,Sýnýf2}
+
+@DATA
+a,70,Dogru,Sýnýf1
+a,90,Dogru,Sýnýf2
+a,85,Yanlis,Sýnýf2
+a,95,Yanlis,Sýnýf2
+a,70,Yanlis,Sýnýf1
+b,90,Dogru,Sýnýf1
+b,78,Yanlis,Sýnýf1
+b,65,Dogru,Sýnýf1
+b,75,Yanlis,Sýnýf1
+c,80,Dogru,Sýnýf2
+c,70,Dogru,Sýnýf2
+c,80,Yanlis,Sýnýf1
+c,70,Yanlis,Sýnýf1
+c,96,Yanlis,Sýnýf1
